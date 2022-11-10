@@ -17,4 +17,33 @@ for (let index = 0; index < 10; index++) {
 
 console.log(appVariable)
 console.log(appVariable.y)
-console.log(appVariable.t) // not there so it will give undefined
+console.log(appVariable.z())
+console.log(appVariable.z)
+// console.log(appVariable.t) // not there so it will give undefined
+
+const arra = [5,5,8,6,4,2,9,3,4,1,2,7,3,7];
+
+var filterdValues = arra.filter((valueItems)=>{
+
+    return (valueItems>2 && valueItems<8)
+
+})
+
+console.log(filterdValues)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
