@@ -1,28 +1,29 @@
 {
-  "name"       : "codestepbystep-youtube",
-  "version"    : "0.0.1",
+  "name": "codestepbystep-youtube",
+  "version": "0.0.1",
   "description": "Youtube tuts from code step by step [https://www.youtube.com/watch?v=VrQgmNY96wo]",
-  "main"       : "index.js",
-  "scripts"    : {
+  "main": "index.js",
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url" : "git+https://github.com/bkarthikkumar/node_js_tuts_nov2022.git"
+    "url": "git+https://github.com/bkarthikkumar/node_js_tuts_nov2022.git"
   },
   "keywords": [
     "karthik",
     "nodejs"
   ],
-  "author" : "karthik kumar",
+  "author": "karthik kumar",
   "license": "ISC",
-  "bugs"   : {
+  "bugs": {
     "url": "https://github.com/bkarthikkumar/node_js_tuts_nov2022/issues"
   },
-  "homepage"    : "https://github.com/bkarthikkumar/node_js_tuts_nov2022#readme",
+  "homepage": "https://github.com/bkarthikkumar/node_js_tuts_nov2022#readme",
   "dependencies": {
-   "chalk"             : "^4.1.2",
-   "colors"            : "^1.4.0",
-   "simple-node-logger": "^21.8.12"
+    "chalk": "^4.1.2",
+    "colors": "^1.4.0",
+    "express": "^4.18.2",
+    "simple-node-logger": "^21.8.12"
   }
 }
